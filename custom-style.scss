@@ -9,7 +9,8 @@ $new-theme-colors: (
   "primary":$new-primary,
   "success":$new-success,
   "warning":$new-warning,
-  "grayground":#141414
+  "grayground":#141414,
+  "gray2":#666666
 );
 
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
